@@ -7,6 +7,7 @@
  <details><summary>Click For Code :Lowest Common Ancestor of a Binary Tree </summary>
 <p>
 ```
+puts """
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -28,6 +29,7 @@ class Solution:
                 # if there is a split then split will be lowest common ancestor
                 # or descendant of itself
                 return cur
+ """
 ```
 
 </p>
