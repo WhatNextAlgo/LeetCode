@@ -11,19 +11,18 @@ class TreeNode:
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if root is None:
-            return root
-        first = p.val
-        second = q.val
-        def get_ancestor(root):
-            val = root.val
-            if val < min(first,second):
-                return get_ancestor(root.right)
-            if val > max(first,second):
-                return get_ancestor(root.left)
-            return root       
-
-        return get_ancestor(root)     
+        cur = root
+        while cur:
+            # p and q is greater the current val then we have to look at right sub tree.
+            if p.val > cur.val and q.val > cur.val:
+                cur = cur.right
+            # p and q is less the current val then we have to look at left sub tree.
+            elif p.val < cur.val and q.val < cur.val:
+                cur = cur.left
+            else:
+                # if there is a split then split will be lowest common ancestor
+                # or descendant of itself
+                return cur 
 ```
 ```mermaid
 graph TD;
