@@ -7,8 +7,7 @@
  <details><summary>Click For Code :Lowest Common Ancestor of a Binary Tree </summary>
 <p>
 ```ruby
-   puts "
-# Definition for a binary tree node.
+   puts "# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -33,9 +32,7 @@ class Solution:
 
 </p>
 </details>
-```
 
-```
 ```mermaid
 graph TD;
     6-->2;
