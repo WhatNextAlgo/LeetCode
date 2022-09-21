@@ -28,8 +28,7 @@ class Solution:
             else:
                 # if there is a split then split will be lowest common ancestor
                 # or descendant of itself
-                return cur
- "
+                return cur"
 ```
 
 </p>
