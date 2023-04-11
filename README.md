@@ -1,4 +1,4 @@
-# <h1 align ="center"> :robot:[LeetCode](https://leetcode.com/user6736Jw/) </h1>
+# :robot:[LeetCode](https://leetcode.com/user6736Jw/)
 
 ## String
 - [205. Isomorphic Strings](https://github.com/WhatNextAlgo/LeetCode/blob/main/LeetCode-50/String/205.%20Isomorphic%20Strings.py)
